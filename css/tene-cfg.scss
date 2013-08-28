@@ -7,6 +7,7 @@ $control-bg: #aaaaaa;
 $text-color: #000000;
 $ctrl-color: #000000;
 $link-color: #00d0ff;
+$visited-color: #9900ff;
 
 $error: #ff0000;
 $warn: #ffff00;
@@ -23,7 +24,16 @@ $m-padding: 10px;
 $l-padding: 20px;
 $xl-padding: 50px;
 
-$hover-change: 10%;
+$s-round: 5px;
+$m-round: 10px;
+$l-round: 20px;
+
+$border-width: 1px;
+$border-color: #000;
+
+$mark-blur: 10px;
+
+$hover-change: 20%;
 
 $font-size: 18px;
 
@@ -35,4 +45,5 @@ $mono-font: 'Droid Sans Mono', monospace;
 
 /* misc */
 
+$link-td: none;
 $btn-td: none;

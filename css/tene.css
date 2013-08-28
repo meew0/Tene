@@ -12,6 +12,14 @@ body {
   font-size: 18px;
   color: black; }
 
+a {
+  color: #00d0ff;
+  text-decoration: none; }
+  a:hover {
+    color: #66e3ff; }
+  a:visited {
+    color: #9900ff; }
+
 .mono {
   font-family: "Droid Sans Mono", monospace; }
 
@@ -24,29 +32,71 @@ body {
   color: black;
   background-color: #aaaaaa; }
   .button:hover {
-    background-color: #c3c3c3; }
+    background-color: #dddddd; }
+  .button:visited {
+    color: black; }
+
+.rounded-s {
+  border-radius: 5px; }
+
+.rounded {
+  border-radius: 10px; }
+
+.rounded-l {
+  border-radius: 20px; }
+
+.bordered {
+  border: 1px solid black; }
+
+.xl-padding {
+  padding: 50px; }
 
 .error {
   background-color: red; }
   .error:hover {
-    background-color: #ff3333; }
+    background-color: #ff6666; }
+  .error:visited {
+    color: black; }
 
 .warn {
   background-color: yellow; }
   .warn:hover {
-    background-color: #ffff33; }
+    background-color: #ffff66; }
+  .warn:visited {
+    color: black; }
 
 .good {
   background-color: lime; }
   .good:hover {
-    background-color: #33ff33; }
+    background-color: #66ff66; }
+  .good:visited {
+    color: black; }
 
 .info {
   background-color: #00d0ff; }
   .info:hover {
-    background-color: #33d9ff; }
+    background-color: #66e3ff; }
+  .info:visited {
+    color: black; }
 
 .alt {
   background-color: #0044ff; }
   .alt:hover {
-    background-color: #3369ff; }
+    background-color: #668fff; }
+  .alt:visited {
+    color: black; }
+
+.mark-error {
+  box-shadow: 0 0 10px red; }
+
+.mark-warn {
+  box-shadow: 0 0 10px yellow; }
+
+.mark-good {
+  box-shadow: 0 0 10px lime; }
+
+.mark-info {
+  box-shadow: 0 0 10px #00d0ff; }
+
+.mark-alt {
+  box-shadow: 0 0 10px #0044ff; }

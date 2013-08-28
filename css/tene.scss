@@ -15,6 +15,13 @@ body {
 	color:$text-color;
 }
 
+a {
+	color:$link-color;
+	text-decoration:$link-td;
+	&:hover { color:lighten($link-color, $hover-change); }
+	&:visited { color:$visited-color; }
+}
+
 .mono {
 	font-family:$mono-font;
 }
@@ -30,18 +37,24 @@ body {
 	@include hoverable($control-bg);
 }
 
-.error {
-	@include hoverable($error);
+.rounded-s { border-radius:$s-round; }
+.rounded { border-radius:$m-round; }
+.rounded-l { border-radius:$l-round; }
+
+.bordered { @include border($border-width, $border-color); }
+
+.xl-padding {
+	padding:$xl-padding;
 }
-.warn {
-	@include hoverable($warn);
-}
-.good {
-	@include hoverable($good);
-}
-.info {
-	@include hoverable($info);
-}
-.alt {
-	@include hoverable($alt);
-}
+
+.error { @include hoverable($error); }
+.warn { @include hoverable($warn); }
+.good { @include hoverable($good); }
+.info { @include hoverable($info); }
+.alt { @include hoverable($alt); }
+
+.mark-error { @include mark($error); }
+.mark-warn { @include mark($warn); }
+.mark-good { @include mark($good); }
+.mark-info { @include mark($info); }
+.mark-alt { @include mark($alt); }

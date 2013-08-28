@@ -1,4 +1,13 @@
 @mixin hoverable($bg) {
 	background-color:$bg;
 	&:hover { background-color:lighten($bg, $hover-change); }
+	&:visited { color:$ctrl-color; }
+}
+
+@mixin mark($color) {
+	box-shadow:0 0 $mark-blur $color;
+}
+
+@mixin border($width, $color) {
+	border:$width solid $color;
 }
