@@ -1,5 +1,7 @@
 @import "tene-cfg.scss";
 
+@import "tene-mixin.scss";
+
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans+Mono|Droid+Serif);
 
 
@@ -22,12 +24,24 @@ body {
 }
 
 .button {
-	background-color:$control-bg;
 	padding:$m-padding;
 	text-decoration:$btn-td;
 	color:$ctrl-color;
+	@include hoverable($control-bg);
 }
 
-.button:hover {
-	background-color:lighten($control-bg, $hover-change);
+.error {
+	@include hoverable($error);
+}
+.warn {
+	@include hoverable($warn);
+}
+.good {
+	@include hoverable($good);
+}
+.info {
+	@include hoverable($info);
+}
+.alt {
+	@include hoverable($alt);
 }

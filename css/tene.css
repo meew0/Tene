@@ -19,10 +19,34 @@ body {
   font-family: "Droid Serif", serif; }
 
 .button {
-  background-color: #aaaaaa;
   padding: 10px;
   text-decoration: none;
-  color: black; }
+  color: black;
+  background-color: #aaaaaa; }
+  .button:hover {
+    background-color: #c3c3c3; }
 
-.button:hover {
-  background-color: #c3c3c3; }
+.error {
+  background-color: red; }
+  .error:hover {
+    background-color: #ff3333; }
+
+.warn {
+  background-color: yellow; }
+  .warn:hover {
+    background-color: #ffff33; }
+
+.good {
+  background-color: lime; }
+  .good:hover {
+    background-color: #33ff33; }
+
+.info {
+  background-color: #00d0ff; }
+  .info:hover {
+    background-color: #33d9ff; }
+
+.alt {
+  background-color: #0044ff; }
+  .alt:hover {
+    background-color: #3369ff; }
