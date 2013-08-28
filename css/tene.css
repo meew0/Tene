@@ -1,6 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans+Mono|Droid+Serif);
 /* Tene Configurator */
 /* colors */
 /* numbers */
+/* fonts */
+/* misc */
+body {
+  background-color: white; }
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: black; }
+
+.mono {
+  font-family: "Droid Sans Mono", monospace; }
+
+.serif {
+  font-family: "Droid Serif", serif; }
+
 .button {
   background-color: #aaaaaa;
-  padding: 5px; }
+  padding: 10px;
+  text-decoration: none;
+  color: black; }
+
+.button:hover {
+  background-color: #c3c3c3; }

@@ -2,8 +2,10 @@
 
 /* colors */
 
-$bg-color: #ffffff;
-$control-color: #aaaaaa;
+$bg: #ffffff;
+$control-bg: #aaaaaa;
+$text-color: #000000;
+$ctrl-color: #000000;
 
 $error: #ff0000;
 $warn: #ffff00;
@@ -14,9 +16,21 @@ $alt: #0044ff;
 /* numbers */
 
 $xs-padding: 1px;
-$s-padding: 3px;
-$m-padding: 5px;
-$l-padding: 10px;
-$xl-padding: 20px;
+$s-padding: 5px;
+$m-padding: 10px;
+$l-padding: 20px;
+$xl-padding: 50px;
 
 $hover-change: 10%;
+
+$font-size: 18px;
+
+/* fonts */
+
+$font: 'Source Sans Pro', sans-serif;
+$serif-font: 'Droid Serif', serif;
+$mono-font: 'Droid Sans Mono', monospace;
+
+/* misc */
+
+$btn-td: none;
