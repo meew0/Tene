@@ -40,6 +40,16 @@ a {
 .rounded-s { border-radius:$s-round; }
 .rounded { border-radius:$m-round; }
 .rounded-l { border-radius:$l-round; }
+.pill { border-radius:$pill-radius; }
+
+p {
+	text-align:$p-align;
+}
+
+.hl-first:first-letter {
+	font-size:$first-letter-size;
+	line-height:$first-letter-lh;
+}
 
 .bordered { @include border($border-width, $border-color); }
 

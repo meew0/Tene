@@ -45,6 +45,16 @@ a {
 .rounded-l {
   border-radius: 20px; }
 
+.pill {
+  border-radius: 1000px; }
+
+p {
+  text-align: justify; }
+
+.hl-first:first-letter {
+  font-size: 32px;
+  line-height: 60%; }
+
 .bordered {
   border: 1px solid black; }
 
