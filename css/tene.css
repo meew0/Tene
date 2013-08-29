@@ -57,7 +57,8 @@ input {
   border: 1px solid black; }
 
 .i-unfocused-text {
-  color: #888888; }
+  color: #888888;
+  border: 1px solid #888888; }
 
 input:hover {
   border: 1px solid #555555; }

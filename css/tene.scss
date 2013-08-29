@@ -39,6 +39,7 @@ a {
 .pill { border-radius:$pill-radius; }
 
 .d-input {}
+.toggler {}
 
 input {
 	padding:$m-padding;
@@ -46,7 +47,10 @@ input {
 	@include border($i-border-w, $i-border-c);
 }
 
-.i-unfocused-text { color:$i-unfc-color; }
+.i-unfocused-text {
+	color:$i-unfc-color;
+	@include border($i-border-w-u, $i-border-c-u);
+}
 
 input:hover { @include border($i-border-w-h, $i-border-c-h);}
 input:focus {
