@@ -4,7 +4,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans+Mono|Droid+Serif);
 
-
 body {
 	background-color:$bg;
 }
@@ -15,6 +14,8 @@ body {
 	color:$text-color;
 }
 
+*:focus { outline:0; }
+
 a {
 	color:$link-color;
 	text-decoration:$link-td;
@@ -22,13 +23,8 @@ a {
 	&:visited { color:$visited-color; }
 }
 
-.mono {
-	font-family:$mono-font;
-}
-
-.serif {
-	font-family:$serif-font;
-}
+.mono { font-family:$mono-font; }
+.serif { font-family:$serif-font; }
 
 .button {
 	padding:$m-padding;
@@ -42,9 +38,19 @@ a {
 .rounded-l { border-radius:$l-round; }
 .pill { border-radius:$pill-radius; }
 
-p {
-	text-align:$p-align;
+input {
+	padding:$m-padding;
+	font-size:$input-size;
+	@include border($i-border-w, $i-border-c);
 }
+
+input:hover { @include border($i-border-w-h, $i-border-c-h);}
+input:focus {
+	@include border($i-border-w-a, $i-border-c-a);
+	@include mark($i-mark-color, $i-mark-blur);
+}
+
+p { text-align:$p-align; }
 
 .hl-first:first-letter {
 	font-size:$first-letter-size;
@@ -53,9 +59,7 @@ p {
 
 .bordered { @include border($border-width, $border-color); }
 
-.xl-padding {
-	padding:$xl-padding;
-}
+.xl-padding { padding:$xl-padding; }
 
 .error { @include hoverable($error); }
 .warn { @include hoverable($warn); }

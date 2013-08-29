@@ -4,8 +4,8 @@
 	&:visited { color:$ctrl-color; }
 }
 
-@mixin mark($color) {
-	box-shadow:0 0 $mark-blur $color;
+@mixin mark($color, $blur: $mark-blur) {
+	box-shadow:0 0 $blur $color;
 }
 
 @mixin border($width, $color) {

@@ -12,6 +12,9 @@ body {
   font-size: 18px;
   color: black; }
 
+*:focus {
+  outline: 0; }
+
 a {
   color: #00d0ff;
   text-decoration: none; }
@@ -47,6 +50,18 @@ a {
 
 .pill {
   border-radius: 1000px; }
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid black; }
+
+input:hover {
+  border: 1px solid #555555; }
+
+input:focus {
+  border: 1px solid black;
+  box-shadow: 0 0 2px #333333; }
 
 p {
   text-align: justify; }
