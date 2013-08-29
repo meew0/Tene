@@ -3,7 +3,8 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/tene.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<script src="js/tene.js" ></script>
 </head>
 <body style="padding:30px;">
 <table>
@@ -95,9 +96,16 @@
 	</tr>
 	<tr>
 		<td>
-			<input type="text" value="Test"</input>
+			<input type="text" value="Test"></input>
 		</td><td>
 			This should be a text box.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="text" class="d-input" tene-example="Example"></input>
+		</td><td>
+			This text box should have an example value.
 		</td>
 	</tr>
 </table>

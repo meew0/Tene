@@ -38,11 +38,15 @@ a {
 .rounded-l { border-radius:$l-round; }
 .pill { border-radius:$pill-radius; }
 
+.d-input {}
+
 input {
 	padding:$m-padding;
 	font-size:$input-size;
 	@include border($i-border-w, $i-border-c);
 }
+
+.i-unfocused-text { color:$i-unfc-color; }
 
 input:hover { @include border($i-border-w-h, $i-border-c-h);}
 input:focus {
