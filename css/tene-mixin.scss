@@ -16,3 +16,12 @@
 	padding:$padding;
 	font-size:$font-size;
 }
+
+@mixin rgroup($radius, $dir) {
+	padding:$m-padding;
+	margin-left:-7px;
+	margin-right:-7px;
+	border-radius:0px;
+	border-bottom-#{$dir}-radius:$radius;
+	border-top-#{$dir}-radius:$radius;
+}

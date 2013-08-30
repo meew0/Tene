@@ -44,6 +44,9 @@ a {
 .d-input {}
 .toggler {}
 
+.ui-group .rounded:first-child { @include rgroup($m-round, left) }
+.ui-group .rounded:last-child { @include rgroup($m-round, right) }
+
 input {
 	padding:$m-padding;
 	font-size:$input-size;
@@ -70,6 +73,8 @@ p { text-align:$p-align; }
 
 .bordered { @include border($border-width, $border-color); }
 
+.no-padding { padding:0px; }
+.m-padding { padding:$m-padding; }
 .xl-padding { padding:$xl-padding; }
 
 .error { @include hoverable($error); }
