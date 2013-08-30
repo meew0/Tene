@@ -29,15 +29,26 @@ a {
 .serif {
   font-family: "Droid Serif", serif; }
 
-.button {
-  padding: 10px;
+.button, .s-button, .l-button {
   text-decoration: none;
   color: black;
   background-color: #aaaaaa; }
-  .button:hover {
+  .button:hover, .s-button:hover, .l-button:hover {
     background-color: #dddddd; }
-  .button:visited {
+  .button:visited, .s-button:visited, .l-button:visited {
     color: black; }
+
+.button {
+  padding: 10px;
+  font-size: 18px; }
+
+.l-button {
+  padding: 20px;
+  font-size: 24px; }
+
+.s-button {
+  padding: 5px;
+  font-size: 14px; }
 
 .rounded-s {
   border-radius: 5px; }

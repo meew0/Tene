@@ -11,3 +11,8 @@
 @mixin border($width, $color) {
 	border:$width solid $color;
 }
+
+@mixin button($padding, $font-size) {
+	padding:$padding;
+	font-size:$font-size;
+}

@@ -26,12 +26,15 @@ a {
 .mono { font-family:$mono-font; }
 .serif { font-family:$serif-font; }
 
-.button {
-	padding:$m-padding;
+.button,.s-button,.l-button {
 	text-decoration:$btn-td;
 	color:$ctrl-color;
 	@include hoverable($control-bg);
 }
+
+.button { @include button($m-padding, $m-size); }
+.l-button { @include button($l-padding, $l-size); }
+.s-button { @include button($s-padding, $s-size); }
 
 .rounded-s { border-radius:$s-round; }
 .rounded { border-radius:$m-round; }
