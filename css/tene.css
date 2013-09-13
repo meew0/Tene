@@ -1,171 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans+Mono|Droid+Serif);
-/* Tene Configurator */
-/* colors */
-/* numbers */
-/* fonts */
-/* misc */
-body {
-  background-color: white; }
+/*
+Errno::ENOENT: No such file or directory - scss\tene.scss
 
-* {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
-  color: black; }
-
-*:focus {
-  outline: 0; }
-
-a {
-  color: #00d0ff;
-  text-decoration: none; }
-  a:hover {
-    color: #66e3ff; }
-  a:visited {
-    color: #9900ff; }
-
-.mono {
-  font-family: "Droid Sans Mono", monospace; }
-
-.serif {
-  font-family: "Droid Serif", serif; }
-
-.button, .s-button, .l-button {
-  text-decoration: none;
-  color: black;
-  background-color: #aaaaaa; }
-  .button:hover, .s-button:hover, .l-button:hover {
-    background-color: #dddddd; }
-  .button:visited, .s-button:visited, .l-button:visited {
-    color: black; }
-
-.button {
-  padding: 10px;
-  font-size: 18px; }
-
-.l-button {
-  padding: 20px;
-  font-size: 24px; }
-
-.s-button {
-  padding: 5px;
-  font-size: 14px; }
-
-.rounded-s {
-  border-radius: 5px; }
-
-.rounded {
-  border-radius: 10px; }
-
-.rounded-l {
-  border-radius: 20px; }
-
-.pill {
-  border-radius: 1000px; }
-
-.ui-group .rounded:first-child {
-  padding: 10px;
-  margin: -7px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  border-radius: 0px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px; }
-
-.ui-group .rounded:last-child {
-  padding: 10px;
-  margin: -7px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  border-radius: 0px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px; }
-
-input {
-  padding: 10px;
-  font-size: 18px;
-  border: 1px solid black; }
-
-.bold {
-  font-weight: bold; }
-
-.i-unfocused-text {
-  color: #888888;
-  border: 1px solid #888888; }
-
-input:hover {
-  border: 1px solid #555555; }
-
-input:focus {
-  border: 1px solid black;
-  box-shadow: 0 0 2px #333333; }
-
-p {
-  text-align: justify; }
-
-.hl-first:first-letter {
-  font-size: 32px;
-  line-height: 60%; }
-
-.bordered {
-  border: 1px solid black; }
-
-.no-padding {
-  padding: 0px; }
-
-.m-padding {
-  padding: 10px; }
-
-.xl-padding {
-  padding: 50px; }
-
-.error {
-  background-color: red; }
-  .error:hover {
-    background-color: #ff6666; }
-  .error:visited {
-    color: black; }
-
-.warn {
-  background-color: yellow; }
-  .warn:hover {
-    background-color: #ffff66; }
-  .warn:visited {
-    color: black; }
-
-.good {
-  background-color: lime; }
-  .good:hover {
-    background-color: #66ff66; }
-  .good:visited {
-    color: black; }
-
-.info {
-  background-color: #00d0ff; }
-  .info:hover {
-    background-color: #66e3ff; }
-  .info:visited {
-    color: black; }
-
-.alt {
-  background-color: #0044ff; }
-  .alt:hover {
-    background-color: #668fff; }
-  .alt:visited {
-    color: black; }
-
-.mark-error {
-  box-shadow: 0 0 10px red; }
-
-.mark-warn {
-  box-shadow: 0 0 10px yellow; }
-
-.mark-good {
-  box-shadow: 0 0 10px lime; }
-
-.mark-info {
-  box-shadow: 0 0 10px #00d0ff; }
-
-.mark-alt {
-  box-shadow: 0 0 10px #0044ff; }
+Backtrace:
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:360:in `read'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:360:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - scss\tene.scss"; }

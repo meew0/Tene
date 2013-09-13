@@ -1,0 +1,1 @@
+scss --watch scss/tene.scss:css/tene.css
