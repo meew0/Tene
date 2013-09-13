@@ -53,6 +53,8 @@ input {
 	@include border($i-border-w, $i-border-c);
 }
 
+.bold { font-weight:bold; }
+
 .i-unfocused-text {
 	color:$i-unfc-color;
 	@include border($i-border-w-u, $i-border-c-u);

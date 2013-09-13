@@ -19,8 +19,10 @@
 
 @mixin rgroup($radius, $dir) {
 	padding:$m-padding;
-	margin-left:-7px;
-	margin-right:-7px;
+	margin:-7px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-#{$dir}:0px;
 	border-radius:0px;
 	border-bottom-#{$dir}-radius:$radius;
 	border-top-#{$dir}-radius:$radius;
